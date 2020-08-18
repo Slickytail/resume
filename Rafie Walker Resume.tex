@@ -1,0 +1,120 @@
+% Raphael Walker Resume
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{
+	letterpaper,
+	top=0.6in,
+	bottom=0.4in,
+	left=0.5in,
+	right=0.5in
+	}
+\usepackage{mdwlist}
+% Fonts
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[babel=true]{microtype}
+
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{multicol}
+% Hyperlink setup
+\usepackage[hidelinks=true]{hyperref}
+
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+\newenvironment{explist}
+{\begin{itemize}[label=\textbf{--},itemsep=1pt,topsep=0pt,partopsep=0pt,parsep=0pt]}
+{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+	{\LARGE{\textbf{Rafie Walker}}}\\[0.05in]
+
+	\begin{tabular}{r @{\hskip 0.1in}|@{\hskip 0.1in} l}
+		(510) 847-3889 & rw8103@bard.edu \\
+		 \href{https://github.com/Slickytail}{\faGithub.com/Slickytail} &
+		 \href{https://linkedin.com/in/raphael-walker}{\faLinkedinSquare.com/Raphael-Walker}
+	\end{tabular}
+\end{center}
+\hrule \vspace{-0.5em}
+
+\section*{Education} \vspace{-0.5em}
+\begin{itemize}[label=,itemsep=0pt]
+	\item
+	\textbf{Bard College} \textit{Annandale-On-Hudson, New York} \hfill Expected May 2021\\
+	\textit{Bachelor of Arts, Mathematics Concentration} \hfill \textit{GPA 4.0}
+	\item
+	\textbf{Bard College at Simon's Rock} \textit{Great Barrington, Massachusetts} \hfill May 2019\\
+	\textit{Associate of Arts} \hfill \textit{GPA 3.9}\\
+	\vspace{-2.2em}
+	\begin{multicols}{2}
+		\noindent
+		\begin{itemize}[label=\textbf{--},itemsep=0pt,topsep=0pt,partopsep=0pt,parsep=0pt]
+			\item Algorithms and Data Structures
+			\item Systems Programming
+			\item Linear Algebra
+			\item Vector Calculus
+			\item Ordinary Differential Equations
+			\item Modern Algebra
+			\item Point-Set Topology
+			\item Probability and Statistics
+		\end{itemize}
+	\end{multicols}
+	\vspace{-1em}
+	Mathematics and Computer Science Tutor
+\end{itemize}
+\vspace{-2.5em}
+
+\section*{Work Experience} \vspace{-0.5em}
+\begin{itemize}[label=,itemsep=0pt]
+	\item 
+	\textbf{Invisible College} \hfill May 2019---August 2019\\
+    \hfill May 2020---August 2020\\
+	\textit{Research Assistant}
+	\begin{explist}
+		\item Designed and developed a set of decentralized synchronization protocols and algorithms.
+		\item Co-authored IETF draft for universal synchronization protocol.
+		\item Created Javascript and NodeJS tools to analyze and debug synchronization algorithms, including a universal protocol translation demo and a peer-to-peer sync visualization.
+	\end{explist}
+
+	\item
+	\textbf{Qu-Swap} \hfill December 2018---February 2019\\
+	\textit{Front-end Developer}
+	\begin{explist}
+		\item Designed UI (JS, CSS, HTML, Bootstrap) and UX for a textbook-swap website.
+		\item Set up TLS/SSL certificates on the back-end.
+	\end{explist}
+
+	\item
+	\textbf{Speakeasy Digital Media} \hfill August 2018---February 2019\\
+	\textit{Web Developer}
+	\begin{explist}
+		\item Created and modified WordPress PHP templates for company blogs.
+		\item Improved page load times by up to ten times by optimization on both front-end and back-end.
+	\end{explist}
+	
+	\item
+	\textbf{Storefront Political} \hfill May 2018---August 2018\\
+	\textit{Data Science Intern}
+	\begin{explist}
+		\item Analyzed pre-electoral polls, including weighting, cross-tabulating, raking, and cleaning.
+		\item Created R and Python scripts to automate common tasks such as matching ZIP codes to voting districts and visualizing survey results.
+		\item Designed and implemented a webapp for interactive visualization of survey results.
+		\item Managed large PostgreSQL databases containing voter information.
+	\end{explist}
+
+	\item
+	\textbf{Omnisparx} \hfill November 2017---April 2018\\
+	\textit{Intern}
+	\begin{explist}
+		\item Researched and reported on the state of blockchain technology to educate app users and inform development for blockchain start-up.
+		\item Reported directly to CEO.
+	\end{explist}
+\end{itemize}
+
+\end{document}
