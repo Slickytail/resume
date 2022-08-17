@@ -1,0 +1,152 @@
+% Raphael Walker Resume
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{
+	letterpaper,
+	top=0.6in,
+	bottom=0.4in,
+	left=0.5in,
+	right=0.5in
+	}
+\usepackage{mdwlist}
+% Fonts
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[babel=true]{microtype}
+
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{multicol}
+% Hyperlink setup
+\usepackage{hyperref}
+\usepackage{graphicx}
+% Math stuff
+\usepackage{amsmath,amsfonts}
+
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+\newenvironment{explist}
+{\begin{itemize}[label=\textbf{--},itemsep=1pt,topsep=0pt,partopsep=0pt,parsep=0pt]}
+{\end{itemize}}
+
+\begin{document}
+
+%    \begin{multicols}{2}
+
+        {\LARGE{\textbf{Raphaël Barish Walker}}}\vspace{7pt}
+
+        \faPhone : +1 (510) 847-3889 (US), +33 06 95 87 96 73 (FR)\vspace{4pt}
+
+        \faEnvelope : raphael.walker@universite-paris-saclay.fr, slickytail.mc@gmail.com\vspace{4pt}
+
+        \faGithub : \href{https://github.com/Slickytail}{github.com/Slickytail}\vspace{4pt}
+
+        \faLinkedinSquare : \href{https://linkedin.com/in/raphael-walker}{linkedin.com/in/Raphael-Walker}\vspace{4pt}
+
+%        \columnbreak
+%        \begin{flushright}
+%            \includegraphics[width=0.3\linewidth]{headshot.jpg}
+%        \end{flushright}
+%    \end{multicols}
+
+\hrule
+
+\section*{Papers}
+\begin{itemize}[label=]
+    \item
+        \textbf{A Small Maximal Sidon Set in $\mathbb{Z}_2^n$}\\
+        \textit{Siam Journal of Discrete Mathematics, Vol. 36 No. 3 \hfill 2022}\\
+        \textit{Maximus Redman, Lauren Rose, Raphael Walker}
+
+        A Sidon set is a subset of an Abelian group with the property that each sum of two distinct elements is distinct. We construct a small maximal Sidon set of size $O((n \cdot 2^n)^{1/3})$ in the group ${\mathbb{Z}}\_2^n$, generalizing a result of Ruzsa concerning maximal Sidon sets in the integers.
+
+\end{itemize}
+
+\section*{Academic Experience}
+\begin{itemize}[label=]
+    \item
+        \textbf{Université Paris-Saclay} \textit{Orsay, France} \hfill Fall 2021---Spring 2023 (Anticipated)\\
+        \textit{Master of Science, Mathematics of Artificial Intelligence}
+
+	\item
+	\textbf{Bard College} \textit{Annandale-On-Hudson, New York} \hfill Fall 2019---Spring 2021\\
+    \textit{Bachelor of Arts, Mathematics Major}\hfill \textit{GPA 4.0}\\
+    Artine Artinian Scholar 2019--2020\\
+    Mathematics and computer science tutor
+
+    \item
+    \textbf{Bard Senior Project} \hfill Fall 2020---Spring 2021\\
+    \textit{Senior Project in Mathematics}\\
+    \textit{Advisor: Prof. Caitlin Leverson}
+    \begin{explist}
+        \item Studied Legendrian knots and Lagrangian cobordisms.
+        \item Found families of Legendrian ribbon knots which admit constructable Lagrangian cobordisms from minimally-stabilized unknots.
+    \end{explist}
+
+    \item
+    \textbf{Bard Summer Research Institute} \hfill Summers 2020, 2021\\
+    \textit{Research Assistant, Mathematics}\\
+    \textit{Mentor: Prof. Lauren Rose}
+    \begin{explist}
+        \item Investigated the size of maximal and minimal generalized caps in finite affine spaces.
+        \item Introduced other students in the research group to the material and supported their exploration of related problems.
+        \item Wrote programs to compute cap sizes in specific affine spaces through optimized brute-force search.
+        \item Created \href{https://slickytail.github.io/QuadsVis/index.html}{a webapp to visualize generalized affine caps}.
+    \end{explist}
+
+	\item
+	\textbf{Bard College at Simon's Rock} \textit{Great Barrington, Massachusetts} \hfill Fall 2017---Spring 2019\\
+	\textit{Associate of Arts} \hfill \textit{GPA 3.9}\\
+	Mathematics, computer science, and French tutor\\
+    Dean's List
+
+    \item 
+        \textbf{Berkeley High School} \textit{Berkeley, California} \hfill Fall 2014---Spring 2017
+
+\end{itemize}
+
+\section*{Work Experience} \vspace{-0.5em}
+\begin{itemize}[label=]
+    \item
+	\textbf{Invisible College} \hfill Summers 2019, 2020\\
+	\textit{Research Assistant}
+	\begin{explist}
+		\item Designed and developed a set of decentralized synchronization protocols and algorithms.
+		\item Co-authored IETF draft for universal synchronization protocol.
+		\item Created Javascript and NodeJS tools to analyze and debug synchronization algorithms, including a universal protocol translation demo and a peer-to-peer sync visualization.
+        \item Contributed to client and server code for the \href{https://github.com/braid-work/braidjs}{BraidJS} library.
+	\end{explist}
+
+	\item
+	\textbf{Speakeasy Digital Media} \hfill September---December 2018\\
+	\textit{Web Developer} \hfill Part-time
+	\begin{explist}
+		\item Created and modified WordPress PHP templates for company blogs.
+		\item Improved page load times by up to ten times by optimization on both front-end page loading and back-end content generation.
+	\end{explist}
+	
+	\item
+	\textbf{Storefront Political} \hfill Summer 2018\\
+	\textit{Data Science Intern}
+	\begin{explist}
+		\item Analyzed pre-electoral polls, including weighting, cross-tabulating, raking, and cleaning.
+		\item Created R and Python scripts to automate common tasks such as matching ZIP codes to voting districts and visualizing survey results.
+		\item Designed and implemented a webapp for interactive visualization of survey results.
+		\item Managed large PostgreSQL databases containing voter information.
+	\end{explist}
+
+    \item
+    \textbf{Omnisparx} \hfill November 2017---April 2018\\
+    \textit{Intern}
+    \begin{explist}
+        \item Researched and reported on the state of blockchain technology to educate app users and inform development for blockchain startup.
+        \item Reported directly to CEO.
+    \end{explist}
+
+\end{itemize}
+
+\end{document}
